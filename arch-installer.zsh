@@ -49,6 +49,9 @@ hwclock --systohc --utc
 # set the hostname
 echo "neonarch" > /etc/hostname
 
+# enable networking
+systemctl enable dhcpcd.service
+
 # install the grub bootloader and generate the config file
 pacman -S grub
 grub-install --target=i386-pc --recheck /dev/sda
