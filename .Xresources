@@ -296,3 +296,5 @@ URxvt.color12: #99CCFF
 URxvt.color13: magenta
 URxvt.color14: cyan
 URxvt.color15: white
+
+URxvt.cursorBlink: true
