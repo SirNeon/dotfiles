@@ -14,8 +14,11 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-alias mkgrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
 alias ls='ls --color=auto'
+alias makemenu='xdg_menu --format awesome --root-menu /etc/xdg/menus/arch-applications.menu >~/.config/awesome/archmenu.lua'
+alias mkgrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias shutdown='sudo shutdown -h now'
 alias update='sudo pacman -Syyu'
+
 export EDITOR=emacs
