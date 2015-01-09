@@ -21,4 +21,4 @@ alias mkgrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias shutdown='sudo shutdown -h now'
 alias update='sudo pacman -Syyu'
 
-export EDITOR=emacs
+export EDITOR=gvim
