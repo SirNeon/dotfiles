@@ -37,3 +37,21 @@ noremap - $
 " move to the start of the line
 noremap i a
 " insert after the cursor
+
+noremap <C-Tab> :bnext<cr>
+" ctrl+tab shifts to the next buffer
+noremap <C-S-Tab> :bprevious<cr>
+" ctrl+shift+tab shifts to the previous buffer
+noremap <C-a> <C-w><Left>
+" ctrl+a to move to the window on the left
+noremap <C-e> <C-w><Down>
+" ctrl+e to move to the window below
+noremap <C-o> <C-w><Up>
+" ctrl+o to move to the window above
+noremap <C-u> <C-w><Right>
+" ctrl+u to move to the window on the right
+
+noremap <S-a> ggVG
+" shift+a selects all
+noremap <S-c> <"-y>
+" shift+c copies selected text
