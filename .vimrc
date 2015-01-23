@@ -35,8 +35,8 @@ noremap , u
 " undo the last action
 noremap - $
 " move to the start of the line
-noremap i a
-" insert after the cursor
+noremap k a
+" insert after cursor
 
 noremap <C-Tab> :bnext<cr>
 " ctrl+tab shifts to the next buffer
