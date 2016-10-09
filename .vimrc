@@ -8,34 +8,35 @@ set hlsearch
 set autoindent
 set textwidth=80
 set bs=2
-set background=dark
-colorscheme cherry-blossom-theme
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:𐤟
+set list
+colorscheme vimpurpledesktop
 
 noremap a h
 " move left
-noremap o k
+noremap s k
 " move down
-noremap e j
+noremap h j
 " move up
-noremap u l
+noremap t l
 " move right
 
-noremap h w
+noremap n w
 " move forwards a word
-noremap t b
+noremap e b
 " move back a word
-noremap n e
+noremap o e
 " move forwards to the end of a word
-noremap s 0
+noremap i 0
 " move to the end of the line
 
-noremap . o
+noremap r o
 " insert a newline below the current line
-noremap , u
+noremap d u
 " undo the last action
-noremap - $
+noremap ' $
 " move to the start of the line
-noremap k a
+noremap c a
 " insert after cursor
 
 noremap <C-Tab> :bnext<cr>
@@ -44,14 +45,16 @@ noremap <C-S-Tab> :bprevious<cr>
 " ctrl+shift+tab shifts to the previous buffer
 noremap <C-a> <C-w><Left>
 " ctrl+a to move to the window on the left
-noremap <C-e> <C-w><Down>
-" ctrl+e to move to the window below
-noremap <C-o> <C-w><Up>
-" ctrl+o to move to the window above
-noremap <C-u> <C-w><Right>
-" ctrl+u to move to the window on the right
+noremap <C-s> <C-w><Down>
+" ctrl+h to move to the window below
+noremap <C-h> <C-w><Up>
+" ctrl+s to move to the window above
+noremap <C-t> <C-w><Right>
+" ctrl+t to move to the window on the right
 
 noremap <S-a> ggVG
 " shift+a selects all
 noremap <S-c> <"-y>
-" shift+c copies selected text
+" shift+c copies the selected text
+noremap y I
+" go into insert mode
