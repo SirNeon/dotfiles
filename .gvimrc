@@ -56,5 +56,5 @@ noremap <S-a> ggVG
 " shift+a selects all
 noremap <S-c> <"-y>
 " shift+c copies the selected text
-noremap y I
+noremap y i
 " go into insert mode
