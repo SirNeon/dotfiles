@@ -51,4 +51,6 @@ fi
 xrdb -merge ~/.Xresources
 xrandr --output HDMI-1 --primary --left-of DVI-I-1
 
+sxhkd &
+compton &
 exec bspwm
