@@ -1,53 +1,63 @@
-!rxvt-unicode (urxvt) v9.21 - released: 2014-12-31
-!options: perl,xft,styles,combining,blink,iso14755,unicode3,encodings=eu+vn+jp+jp-ext+kr+zh+zh-ext,fade,transparent,tint,XIM,frills,selectionscrolling,wheel,slipwheel,cursorBlink,pointerBlank,scrollbars=plain+rxvt+NeXT+xterm
-!Usage: urxvt [options] [-e command args]
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: argb:c3000000, argb:0000000, #bbbbbb
+rofi.color-normal: argb:0000000, #bbbbbb, argb:0000000, argb:0000000, #ff9f73
+rofi.color-active: argb:0000000, #268bd2, argb:0000000, #268bd2, #fdf6e3
+rofi.color-urgent: argb:0000000, #dc322f, argb:0000000, #dc322f, #fdf6e3
 
-!where resources (long-options) include:
-! URxvt*termName:                       string
-! URxvt*termName:                       string
-! URxvt*geometry:                       geometry
-! URxvt*geometry:                       geometry
-! URxvt*chdir:                          string
-! URxvt*chdir:                          string
-! URxvt*reverseVideo:                   boolean
-! URxvt*reverseVideo:                   boolean
-! URxvt*loginShell:                     boolean
-! URxvt*loginShell:                     boolean
-! URxvt*multiClickTime:                 number
-! URxvt*multiClickTime:                 number
-! URxvt*jumpScroll:                     boolean
-! URxvt*jumpScroll:                     boolean
-! URxvt*skipScroll:                     boolean
-! URxvt*skipScroll:                     boolean
-! URxvt*pastableTabs:                   boolean
-! URxvt*pastableTabs:                   boolean
-! URxvt*scrollstyle:                    mode
-! URxvt*scrollstyle:                    mode
-! URxvt*scrollBar:                      boolean
-! URxvt*scrollBar:                      boolean
-! URxvt*scrollBar_right:                boolean
-! URxvt*scrollBar_right:                boolean
-! URxvt*scrollBar_floating:             boolean
-! URxvt*scrollBar_floating:             boolean
-! URxvt*scrollBar_align:                mode
-! URxvt*scrollBar_align:                mode
-! URxvt*thickness:                      number
-! URxvt*thickness:                      number
-! URxvt*scrollTtyOutput:                boolean
-! URxvt*scrollTtyOutput:                boolean
-! URxvt*scrollTtyKeypress:              boolean
-! URxvt*scrollTtyKeypress:              boolean
-! URxvt*scrollWithBuffer:               boolean
-! URxvt*scrollWithBuffer:               boolean
-! URxvt*inheritPixmap:                  boolean
-! URxvt*inheritPixmap:                  boolean
-! URxvt*transparent:                    boolean
-! URxvt*transparent:                    boolean
-! URxvt*tintColor:                      color
-! URxvt*tintColor:                      color
-! URxvt*shading:                        number
-! URxvt*shading:                        number
-! URxvt*blurRadius:                     HxV
+rofi.fullscreen: True
+rofi.lines: 7
+rofi.padding: 100
+rofi.separator-style: solid
+rofi.font: cantarell 30
+rofi.hide-scrollbar: True
+rofi.scroll-method: 0
+
+!-------------------------------------------------------------------------------
+! st color theme
+!-------------------------------------------------------------------------------
+
+st.background: #09111b
+st.foreground: #9fa2b1
+st.font: -*-monospace-*-*-*-*-15-*-*-*-*-*-*-*
+st.cursorColor: #9fa2b1
+st.shell: /bin/zsh
+st.tabspaces: 4
+
+!blacks
+st.color0: #191a1f
+st.color8: #25262a
+
+!reds
+st.color9: #e87b6d
+st.color1: #a13021
+
+!greens
+st.color2: #7dc991
+st.color10: #51ad6a
+
+!yellows
+st.color3: #ff9f73
+st.color11: #896053
+
+!blues
+st.color4: #70a4de
+st.color12: #589de8
+
+!purples
+st.color5: #9b9ded
+st.color13: #7578dd
+
+!cyans
+st.color6: #91c5ea
+st.color14: #6da5e0
+
+!whites
+st.color7: #fcfefb
+st.color15: #c6c9d2
+
 ! URxvt*blurRadius:                     HxV
 ! URxvt*fading:                         number
 ! URxvt*fading:                         number
