@@ -48,9 +48,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-xrdb -merge ~/.Xresources
-xrandr --output HDMI-1 --primary --left-of DVI-I-1
+xrandr --output HDMI-0 --primary --left-of DVI-I-1
+xmodmap ~/.Xmodmap
 
-sxhkd &
-compton &
-exec bspwm
+compton -b --config ~/.compton.conf &
+redshift -c ~/.config/redshift.conf &
+feh --bg-scale ~/Pictures/Wallpapers/landmark1_preview_by_faith303-d8wlyx6.png &
+yabar &
+exec i3
