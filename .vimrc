@@ -9,8 +9,8 @@ set autoindent
 set textwidth=80
 set bs=2
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:𐤟
-set list
-colorscheme vimpurpledesktop
+"set list
+colorscheme systemdefault
 
 noremap a h
 " move left
@@ -57,4 +57,5 @@ noremap <S-a> ggVG
 noremap <S-c> <"-y>
 " shift+c copies the selected text
 noremap y i
-" go into insert mode
+" y goes into insert mode
+
